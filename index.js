@@ -1,16 +1,15 @@
-var x = 6;
+var numero = 5.2 // tipo Number (1,10,2.5,5.3050)
+console.log(numero);// typeof(numero)
+console.log(typeof(numero));
 
-console.log(x);
+var palavra = ("javaScript"); // tipo string (cadeia de caracteres)
+console.log(palavra);
+console.log(typeof(palavra));
 
-const y = "a";//definição de variável const
-//y = "b";
-console.log(y);
-//VARIÁVEL LOCAIS E GLOBAIS
-{//bloco de códigos
-  let z = 4;
-  console.log(x);
-  console.log(y);
-  console.log(z);
-}
+var  logica = false; // Tipo Booleano true (verdadeiro) false (falso)
+console.log(logica);
+console.log(typeof(logica));
 
-console.log(z);
+var qualquer;
+console.log(qualquer);
+console.log(typeof(qualquer));
