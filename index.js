@@ -1,15 +1,21 @@
-var numero = 5.2 // tipo Number (1,10,2.5,5.3050)
-console.log(numero);// typeof(numero)
-console.log(typeof(numero));
+/*
+function <nome da função>(parametros)
+{
 
-var palavra = ("javaScript"); // tipo string (cadeia de caracteres)
-console.log(palavra);
-console.log(typeof(palavra));
+}
+*/
 
-var  logica = false; // Tipo Booleano true (verdadeiro) false (falso)
-console.log(logica);
-console.log(typeof(logica));
+/*function somar()
+{
+var x,y; x = 10; y = 10;
+var soma = x + y;
+console.log(soma);
+}*/
 
-var qualquer;
-console.log(qualquer);
-console.log(typeof(qualquer));
+const somar = function(x,y){
+ var soma = x + y;
+return soma;
+}
+
+var z = somar(4,6);
+console.log(z);
